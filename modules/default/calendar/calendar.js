@@ -23,7 +23,7 @@ Module.register("calendar", {
 		animationSpeed: 2000,
 		fade: true,
 		urgency: 7,
-		timeFormat: "relative",
+		timeFormat: "absolute",
 		dateFormat: "MMM Do",
 		fullDayEventDateFormat: "MMM Do",
 		getRelative: 6,
@@ -33,7 +33,7 @@ Module.register("calendar", {
 		calendars: [
 			{
 				symbol: "calendar",
-				url: "http://www.calendarlabs.com/templates/ical/US-Holidays.ics",
+				url: "./basic.ics",
 			},
 		],
 		titleReplace: {

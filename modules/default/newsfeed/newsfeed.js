@@ -185,6 +185,19 @@ Module.register("newsfeed",{
 				wrapper.appendChild(fullArticle);
 			}
 
+			if (this.config.showCalendar) {
+				var fullArticle = document.createElement("iframe");
+				fullArticle.className = "";
+				fullArticle.style.width = "100%";
+				fullArticle.style.top = "0";
+				fullArticle.style.left = "0";
+				fullArticle.style.position = "fixed";
+				fullArticle.height = window.innerHeight;
+				fullArticle.style.border = "none";
+				fullArticle.src = src="https://calendar.google.com/calendar/embed?src=75md7odmf4um9a26e9g7rroh94%40group.calendar.google.com&ctz=Asia/Saigon" ;
+				wrapper.appendChild(fullArticle);
+			}
+
 			if (this.config.hideLoading) {
 				this.show();
 			}

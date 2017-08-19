@@ -179,7 +179,7 @@ var CalendarFetcher = function(url, reloadInterval, maximumEntries, maximumNumbe
 				return a.startDate - b.startDate;
 			});
 
-			//console.log(newEvents);
+			console.log(newEvents);
 
 			events = newEvents.slice(0, maximumEntries);
 

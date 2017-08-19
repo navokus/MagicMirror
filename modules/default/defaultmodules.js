@@ -16,7 +16,10 @@ var defaultModules = [
 	"helloworld",
 	"newsfeed",
 	"weatherforecast",
-	"updatenotification"
+	"updatenotification",
+	"MMM-MyCalendar",
+	"calendar_monthly",
+	"MMM-CalendarExt",
 ];
 
 /*************** DO NOT EDIT THE LINE BELOW ***************/
