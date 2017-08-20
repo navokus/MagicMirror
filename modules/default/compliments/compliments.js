@@ -25,9 +25,8 @@ Module.register("compliments", {
 				"Looking good today!"
 			],
 			evening: [
-				"Wow, you look hot!",
-				"You look nice!",
-				"Hi, sexy!"
+				"Mang theo sổ báo bài, vở tự học (cam)",
+				"Mang theo 2 bút bảng, 4 bút chì, gôm, chì màu"
 			]
 		},
 		updateInterval: 30000,
